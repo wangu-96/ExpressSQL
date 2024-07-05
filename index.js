@@ -28,6 +28,7 @@ const db = mysql.createPool({
       }
       res.json(results);
     });
+    
   });
   
   // Start the server
